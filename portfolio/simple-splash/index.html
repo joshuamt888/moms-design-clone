@@ -79,4 +79,10 @@ lazyloadBackgroundObserver.unobserve(entry.target);}});},{rootMargin:'200px 0px 
 </script><!-- mdb-dedupelogo --><script>
 (function(){var bp=921;function chk(){var w=window.innerWidth||document.documentElement.clientWidth;document.documentElement.classList.toggle("ast-header-break-point",w<=bp);}chk();window.addEventListener("resize",chk);})();
 </script>
-</body></html>
+<script id="ast-logo-copy">
+document.addEventListener('DOMContentLoaded',function(){
+  var src=document.querySelector('#ast-desktop-header .site-branding');
+  var dst=document.querySelector('#ast-mobile-header .site-branding');
+  if(src&&dst){dst.innerHTML=src.innerHTML;}
+});
+</script></body></html>
