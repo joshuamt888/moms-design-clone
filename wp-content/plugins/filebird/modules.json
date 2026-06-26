@@ -1,0 +1,12 @@
+{
+  "source": {
+    "repo": "YayCommerce/cross-sell-manager",
+    "ref": "main"
+  },
+  "include": [
+    "yaymail-banner-cross-sell",
+    "yaymail-wc-settings-column-cross-sell"
+  ],
+  "exclude_globs": [".github", "tests", "*.md", "phpunit.xml", "composer.lock"],
+  "target_dir": "cross-sell"
+}

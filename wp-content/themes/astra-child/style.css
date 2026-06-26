@@ -1,0 +1,337 @@
+/**
+Theme Name: Astra Child
+Author: Brainstorm Force
+Author URI: http://wpastra.com/about/
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 4.5.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+Template: astra
+*/
+
+button#wpforms-submit-7655.wpforms-submit {
+  background-color: #00AEC7;
+}
+
+.abso-caption-img .widget-image-caption.wp-caption-text{
+	position:absolute;
+	top:50%;
+	left:auto;
+	text-align:center;
+	width:100%;
+	margin:-20px auto 0 auto;
+}
+
+.addtoany_list.a2a_kit_size_32 a {
+   font-size: 23px!important;
+	color:#b3b3b3;
+}
+
+.underline a{
+	text-decoration:underline;
+	color:#b3b3b3;
+}
+
+.no-margin p, .no-margin h5{
+	margin-bottom:0px!important;
+}
+
+.job_application-section input[type="text"], 
+.job_application-section input[type="email"], 
+.job_application-section input[type="tel"],
+.job_application-section select,
+.job_application-section textarea{
+background-color: #fafafa!important;
+border: 1px solid #a9a9a9!important;
+
+}
+
+.wpforms-one-third{
+display: inline-block;
+max-width:31%;
+margin-right: 3.3% !important;
+}
+
+.wpforms-one-third.last{
+margin-right: 0% !important;	
+}
+
+.wpforms-field-label{
+margin-bottom:4px!important;
+	font-weight:normal!important;
+}
+.small-label label{
+	font-weight:normal!important;
+	font-size:14px!important;
+	
+}
+
+.single-row-text{
+	border-top:none!important;
+}
+.single-row-text  h3{
+	font-weight:normal!important;
+	font-size:20px!important;
+}
+.single-row-text  h3, .single-row-text .wpforms-field-description{
+	display:inline!important;
+}
+
+.top-margin-35.wpforms-field-divider{
+	margin-top:35px!important;
+	
+}
+.elementor-post-info a:hover{
+color:#00acc7!important;
+}
+
+body.single-post.postid-334 .post_featured_image figure, body.single-post.postid-621 .post_featured_image figure{
+	display:none;
+}
+
+.elementor-pagination{
+border-top: 1px solid #e4e5e7;
+padding: 20px 0;
+border-bottom: 1px solid #e4e5e7;
+vertical-align: middle;
+display: flex;
+}
+
+.elementor-pagination .page-numbers.next{
+	margin-left:auto!important;
+}
+
+.elementor-pagination .page-numbers.prev{
+	margin-right:auto!important;
+}
+
+.elementor-pagination span.page-numbers.prev{
+	display:none!important;
+}
+body.single-post .fa-angle-left::before {
+  content: "→"!important;
+}
+body.single-post .fa-angle-right::before {
+  content: "←"!important;
+}
+
+
+body.single-post .elementor-post-navigation {  
+  display: block;
+}
+
+
+body.single-post .elementor-post-navigation__prev.elementor-post-navigation__link{
+	float:right;
+	text-align:right!important;
+}
+
+body.single-post .elementor-post-navigation__next.elementor-post-navigation__link{
+	float:left;
+	text-align:left!important;
+}
+
+body.single-post .elementor-post-navigation .elementor-post-navigation__link a {
+  display: inline-block;
+  width: 100%;
+}
+
+body.single-post .elementor-post-navigation span.elementor-post-navigation__link__next, body.single-post .elementor-post-navigation span.elementor-post-navigation__link__prev {
+  display: inline-block;
+}
+
+body.single-post .elementor-post-navigation__link__prev{
+	max-width:88%;
+}
+
+body.single-post .post-navigation__arrow-wrapper.post-navigation__arrow-prev{
+	max-width:12%;
+	float:right;
+}
+
+
+body.single-post .elementor-post-navigation__link__next{
+	max-width:88%;
+}
+
+body.single-post .post-navigation__arrow-wrapper.post-navigation__arrow-next{
+	max-width:12%;
+	float:left;
+}
+
+
+body.single-post .post-navigation__arrow-next .fa.fa-angle-right{
+float: left;
+position: relative;
+top: -3px;
+}
+
+body.single-post .post-navigation__arrow-prev .fa.fa-angle-left{
+float: right;
+position: relative;
+top: -3px;
+}
+
+body.single-post .elementor-post-navigation__link__next{
+	padding-left:12px;
+}
+
+body.single-post .elementor-post-navigation__link__prev{
+	padding-right:12px;
+}
+
+body.single-post .elementor-post-navigation span.elementor-post-navigation__link__next {
+  text-align: left;
+}
+
+body.single-post .elementor-post-navigation span.elementor-post-navigation__link__prev {
+  text-align: right;
+}
+
+body.single-post  .elementor-post-navigation__link {
+  white-space: break-spaces;
+  line-height: 18px;
+}
+
+
+body.single-post .elementor-post-navigation .elementor-post-navigation__next a {
+  justify-content: flex-start!important;
+}
+
+body.single-post .elementor-post-navigation .elementor-post-navigation__prev a {
+  justify-content: flex-end!important;
+}
+
+body.single-post .elementor-post-navigation__prev.elementor-post-navigation__link{
+	max-width:50%!important;
+}
+
+body.single-post .elementor-post-navigation__next.elementor-post-navigation__link{
+	max-width:50%!important;
+}
+
+.working_hours_popup .mabel-bhi-businesshours{
+	color:#fff;
+	width: auto;
+margin: 0 auto;
+}
+
+.working_hours_popup .mabel-bhi-businesshours td, .working_hours_popup .mabel-bhi-businesshours th{
+	padding:3px;
+	
+}
+
+
+.services_landscape_section{
+	margin-left:-10px!important;
+	margin-right:-10px!important;
+}
+
+.ngg-galleryoverview.default-view .ngg-gallery-thumbnail a {
+  margin: 10px!important;
+  
+}
+
+.fullwidth-image .elementor-widget-image a{
+	display:block!important;
+}
+
+#ast-scroll-top{
+		display:none!important;
+	z-index:-2222;
+	}
+
+
+@media(max-width:921px){
+.ast-builder-menu-mobile .main-navigation .main-header-menu .menu-item > .menu-link {
+  padding: 12px 20px;
+ 
+}	
+}
+
+
+
+@media(max-width:750px){
+	.elementor-pagination{
+		margin-bottom:55px;
+	}
+	.ast-menu-toggle	{
+		width:100%;
+		
+	}
+	
+	.ast-menu-toggle .ast-icon.icon-arrow{
+		margin-top:4px;
+		float: right;
+		padding-right:16px;
+	}
+
+.ast-header-break-point .main-header-bar-navigation .menu-item-has-children > .ast-menu-toggle {
+  right: 0px;
+}
+	
+.our_team_section.elementor-widget-image a {
+  display: block!important;
+}
+	
+.services_landscape_section{
+	margin-left:-15px!important;
+	margin-right:-15px!important;
+}
+	
+.services_landscape_section .elementor-column-gap-default > .elementor-column > .elementor-element-populated {
+  padding: 2px!important;
+}
+	
+
+
+}
+
+@media (max-width: 544px){
+.ast-builder-menu-mobile .main-navigation .menu-item.menu-item-has-children > .ast-menu-toggle {
+    top: 0!important;
+    z-index:5555;	
+	padding-right:0;
+}
+	
+.menu-item-has-children a.menu-link{
+		z-index:1;
+	}
+
+.abso-caption-img .widget-image-caption.wp-caption-text {
+  margin: -25px auto 0 auto;
+}
+	
+	.banner_top_section .widget-image-caption.wp-caption-text{
+		font-size:18px;
+		font-weight:400;
+		letter-spacing: .02em;
+    text-transform: none;
+    line-height: 1.2em;
+	}
+	
+}
+
+
+#comment-error, #email-error, #author-error {
+    color: #b11f24;
+    font-size: 14.5px;
+    margin: 2px 0px 5px 10px;
+}
+
+@media(max-width:480px){
+	
+.fullwidth-on-mobile .elementor-button{
+		width:100%;
+	}
+.elementor-post-navigation .elementor-post-navigation__link { 
+  white-space: normal!important; 
+ 
+}
+	
+	body.single-post .elementor-post-navigation .elementor-post-navigation__link a { 
+  line-height: 20px;
+}
+	
+}

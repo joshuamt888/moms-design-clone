@@ -1,0 +1,25 @@
+{
+  "_ProBadge-6329a3e3.js": {
+    "file": "ProBadge-6329a3e3.js"
+  },
+  "admin.tsx": {
+    "file": "admin.tsx-0ffb8608.js",
+    "imports": [
+      "_ProBadge-6329a3e3.js"
+    ],
+    "isEntry": true,
+    "src": "admin.tsx"
+  },
+  "main.tsx": {
+    "file": "main.tsx-6ae711ef.js",
+    "imports": [
+      "_ProBadge-6329a3e3.js"
+    ],
+    "isEntry": true,
+    "src": "main.tsx"
+  },
+  "style.css": {
+    "file": "style.css",
+    "src": "style.css"
+  }
+}
